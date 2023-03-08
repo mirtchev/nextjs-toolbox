@@ -6,7 +6,7 @@ export const handler = async (event) => {
     const randomIndex = Math.floor(Math.random() * jokes.length)
     const randomJoke = jokes[randomIndex]
     
-    alert("Catch 22 " + "randomIndex.toString()")
+    console.log("Catch 22 " + "randomIndex.toString()")
     
     // Netlify Functions need to return an object with a statusCode
     // Other properties such as headers or body can also be included.
